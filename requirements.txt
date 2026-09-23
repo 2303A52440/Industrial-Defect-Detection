@@ -1,0 +1,20 @@
+# Core Dependencies for Edge AI Quality Control Assistant
+numpy>=1.23.0
+opencv-python>=4.8.0
+pillow>=9.5.0
+pydantic>=2.0.0
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=5.15.0
+
+# Vision & Inference
+onnxruntime>=1.15.0
+# Note: hailo_platform (HailoRT Python API) is installed on Raspberry Pi OS with Hailo AI HAT+
+# hailo_platform
+
+# ExecuTorch & Llama Execution
+# executorch can be installed from PyPI or built from source on Raspberry Pi Arm64
+# executorch>=0.3.0
+
+# Testing
+pytest>=7.0.0
