@@ -4,6 +4,19 @@ An end-to-end, on-device AI system for real-time visual inspection of manufactur
 
 ---
 
+## 🖥️ Interactive Prototype Showcase
+
+The prototype includes a production-grade Web Dashboard for factory floor operators built with Streamlit:
+
+- **🤳 Front Camera Stream**: Direct capture from primary webcam / user-facing camera (Device 0).
+- **📷 Back / USB Inspection Camera Stream**: Direct capture from secondary rear camera / external USB inspection endoscope (Device 1).
+- **📱 Browser Camera Tool**: One-click camera input with automatic Front/Back flip capability.
+- **📁 Universal File Upload**: Upload any `.jpg`, `.png`, `.bmp`, `.webp` surface image for real-time defect analysis.
+- **🤖 Llama ExecuTorch Advisory Cards**: Instant operator remediation instructions (`REJECT_COMPONENT`, `REWORK_SURFACE`, `PASS_WITH_MONITORING`).
+- **⚡ System Telemetry**: Live FPS, Vision Latency (ms), Llama Token Speed (tok/s), and SQLite database CSV logging.
+
+---
+
 ## 🌟 Key Features
 
 - **⚡ Dual-Pipeline Edge Architecture**:
